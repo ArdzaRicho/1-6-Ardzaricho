@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
 
 Route::get('/', function () {
     return view('Home', [
@@ -22,6 +23,7 @@ Route::get('/gallery', function () {
             "title" => "Gallery",
             "nama" => "Ardzaricho R",
             "gambar" => "gambarku.jpg"
-        ]);
-
+    ]);
 });
+        
+Route::resource('/contacts', ContactController::class);
