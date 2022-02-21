@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1> Halaman Home </h1>
-    <h3> TIDAK ADA YANG SPESIAL NAMPAKNYA </h3>
+    <h3> Welcome to My Website </h3>
 <script src="js/script.js"></script>
 </body>
 </html>
